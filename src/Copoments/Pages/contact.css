@@ -1,0 +1,112 @@
+
+    *
+{
+    box-sizing: border-box;
+  }
+  
+  
+  .column {
+    float: left;
+   
+    padding: 10px;
+    height: 420px; 
+   margin-top: 28vh;
+
+  }
+  .Contact_body{
+            background-image: url("../Images/bg.jpg");
+            width: auto;
+            height: 100vh;
+            background-size: contain;
+
+        }
+        .container{
+         
+  margin-right: 10vh;
+     
+        }
+  
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }*/
+  .row{
+    width: 120vh; 
+  } 
+  .left{
+    margin-right:28px;
+  }
+       
+        
+        .fa {
+  text-align: center;
+  text-decoration: none;
+   margin-left: 2vw;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #041945;
+  color: lightgray;
+}
+.fa-linkedin {
+  background: #041945;
+  color: lightgray;
+}
+.fa-instagram {
+  background: #041945;
+  color: lightgray;
+}
+.fbody {
+
+  width: 70%;
+  margin-right: 30px;
+
+  }
+  
+  /* Full-width input fields */
+  input,textarea {
+  width: 80%;
+ margin: 5px 0 22px 0;
+  display: inline-block;
+  
+  }
+  .title{
+      
+      height: 2em;
+  }
+  .descreption_text{
+    width: 17vw;
+  }
+  
+  
+  /* Overwrite default styles of hr */ 
+   
+    .form-control{ 
+      border:1px solid dodgerblue; 
+      
+    }
+   .form-control:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+  
+   .fbo{
+    width: 74%;
+    margin-top: 7.5vh;
+   }
+   
+   .btn_class{
+    margin-top:12vh;
+    margin-left:12vw;
+   }
+   .btn_class:focus 
+   :active{
+     border: none;
+     outline: none;
+   }
+    
+  

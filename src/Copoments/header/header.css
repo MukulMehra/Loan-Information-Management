@@ -1,0 +1,56 @@
+.topnav {
+    overflow: hidden;
+  float:right;
+   
+  }
+  .topnav a {
+    float: left;
+    color: rgb(105,105,105);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    text-decoration: none;
+    color:#3ABAF1;
+  }
+  .sticky {
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0;
+    width: 100%;  
+    z-index: 1;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+  }
+  .shadow_btn{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+   
+  }
+  button.btn1{
+    height: 5vh;
+    width: 6vw;
+    background: #3ABAF1;
+    color: #ffffff;
+    border-color: #3ABAF1;
+margin-top: 10px;
+margin-right: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 100;
+  text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+   font-family: "Lato","Avenir W01",Helvetica,Arial,sans-serif; 
+   font-weight: 400;
+  }
+  button.btn1:hover,
+button.btn1:active,
+button.btn1:focus,
+button.btn1.active {
+ color: #3ABAF1;
+  background-color: #ffffff;
+  border-color: #3ABAF1; 
+}
